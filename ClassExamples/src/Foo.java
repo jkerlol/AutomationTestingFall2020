@@ -21,15 +21,12 @@ public class Foo {
 
     public static void main (String args[]) {
 
-        Calculator calc = new Calculator();
-        Foo ex = new Foo();
+        Car audi = new Car();
 
-        System.out.println(ex.introduction("mohammed"));
+        // method calling
 
-        System.out.println("The answer to number 1 is " + calc.add(8,2));
-        System.out.println("The answer to number 2 is " + calc.add(10,15));
-        System.out.println("The answer to number 3 is " + calc.add(10,3));
-        System.out.println("The answer to number 4 is " + calc.add(8,4));
+
+        audi.getBrand();
 
 
     }
@@ -39,6 +36,9 @@ public class Foo {
     public String introduction (String name) {
 
         String result = "";
+        int list[] = new int[10];
+
+        list[9] = 100;
 
         result = "Hi my name is " + name + ", it's a pleasure to meet you!";
 

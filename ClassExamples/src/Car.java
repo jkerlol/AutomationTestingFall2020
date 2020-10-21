@@ -1,5 +1,8 @@
 public class Car {
 
+    private String userID;
+    private int birthday;
+
     public void honk() {
         System.out.println("The car has now honked!");
     }
@@ -16,8 +19,15 @@ public class Car {
         System.out.println("We have now changed gears, where will you go next?");
     }
 
-    public void rearview() {
-        System.out.println("Theres a giant truck behind you");
+    public void sideview() {
+        System.out.println("Theres a giant truck coming beside you trying to cut you off!");
     }
 
+    public void accelerate() {
+        System.out.println("You're starting to accelerate! You're going " + mph + "miles per hour so make sure you're seatbelts fastened!");
+    }
+
+    public void getBrand() {
+        System.out.println("Wow I love you're brand new " + brand);
+    }
 }
