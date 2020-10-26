@@ -25,7 +25,7 @@ public class YahooSignUpValidation2 {
 	
 	public void setupTestEnvironment() {
 		
-		System.setProperty("webdriver.chrome.driver", "/Users/modollas/Desktop/Selenium/WebDriver/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/Users/modollas/Documents/GitHub/AutomationTestingFall2020/Selenium_JAR/WebDriver/chromedriver");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.manage().window().maximize();

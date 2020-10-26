@@ -6,6 +6,7 @@
       <class name="Selenium.YahooSignUpValidation2">
         <methods>
           <include name="postTestBehavior"/>
+          <include name="testPageTitle"/>
           <include name="testButtonShown"/>
           <include name="setupTestEnvironment"/>
         </methods>

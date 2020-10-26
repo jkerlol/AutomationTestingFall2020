@@ -6,9 +6,20 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/modollas/Desktop/Selenium/selenium-java-3.141.59 (1)/client-combined-3.141.59-sources.jar"/>
-	<classpathentry kind="lib" path="/Users/modollas/Desktop/Selenium/selenium-java-3.141.59 (1)/client-combined-3.141.59.jar"/>
-	<classpathentry kind="lib" path="/Users/modollas/Desktop/Selenium/TestNG jars/testng-7.3.0.jar"/>
-	<classpathentry kind="lib" path="/Users/modollas/Desktop/Selenium/selenium-java-3.141.59 (1)/selenium-server-standalone-3.141.59 (1).jar"/>
+	<classpathentry kind="lib" path="/Users/modollas/Documents/GitHub/AutomationTestingFall2020/Selenium_JAR/selenium-java-3.141.59 (1)/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/modollas/Documents/GitHub/AutomationTestingFall2020/Selenium_JAR/selenium-java-3.141.59 (1)/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="/Users/modollas/Documents/GitHub/AutomationTestingFall2020/Selenium_JAR/selenium-java-3.141.59 (1)/selenium-server-standalone-3.141.59 (1).jar"/>
+	<classpathentry kind="lib" path="/Users/modollas/Documents/GitHub/AutomationTestingFall2020/Selenium_JAR/TestNG jars/testng-7.3.0.jar"/>
+	<classpathentry kind="lib" path="/Users/modollas/Documents/GitHub/AutomationTestingFall2020/CUCUMBER/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/modollas/Documents/GitHub/AutomationTestingFall2020/CUCUMBER/cucumber-core-1.2.4.jar"/>
+	<classpathentry kind="lib" path="/Users/modollas/Documents/GitHub/AutomationTestingFall2020/CUCUMBER/cucumber-html-0.2.6.jar"/>
+	<classpathentry kind="lib" path="/Users/modollas/Documents/GitHub/AutomationTestingFall2020/CUCUMBER/cucumber-java-1.2.4.jar"/>
+	<classpathentry kind="lib" path="/Users/modollas/Documents/GitHub/AutomationTestingFall2020/CUCUMBER/cucumber-junit-1.2.4.jar"/>
+	<classpathentry kind="lib" path="/Users/modollas/Documents/GitHub/AutomationTestingFall2020/CUCUMBER/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="lib" path="/Users/modollas/Documents/GitHub/AutomationTestingFall2020/CUCUMBER/cucumber-reporting-2.7.0.jar"/>
+	<classpathentry kind="lib" path="/Users/modollas/Documents/GitHub/AutomationTestingFall2020/CUCUMBER/cucumber-testng-1.2.4.jar"/>
+	<classpathentry kind="lib" path="/Users/modollas/Documents/GitHub/AutomationTestingFall2020/CUCUMBER/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="/Users/modollas/Documents/GitHub/AutomationTestingFall2020/CUCUMBER/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="/Users/modollas/Documents/GitHub/AutomationTestingFall2020/CUCUMBER/mockito-all-1.9.1-20110911.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -24,10 +24,10 @@ public class Car {
     }
 
     public void accelerate() {
-        System.out.println("You're starting to accelerate! You're going " + mph + "miles per hour so make sure you're seatbelts fastened!");
+        System.out.println("You're starting to accelerate! You're going miles per hour so make sure you're seatbelts fastened!");
     }
 
     public void getBrand() {
-        System.out.println("Wow I love you're brand new " + brand);
+        System.out.println("Wow I love you're brand new");
     }
 }
