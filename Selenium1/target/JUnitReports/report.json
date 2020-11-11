@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="12.495412">
+    <testcase classname="Cucumber plugin check" name="Once you are in eclipse" time="0.312577">
+        <system-out>
+            <![CDATA[Given you have a cucumber script ready......................................passed
+When we execute step one, make sure it runs ok..............................passed
+Then we move on to step three...............................................passed
+When we execute step three, make sure it runs ok............................passed
+And we execute step four, make sure that runs ok............................passed
+And we execute step five, make sure that runs ok............................passed
+Then our test has completed successfully....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="facebook sign up validation" name="we have a page to test" time="12.182835">
+        <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[2]/div[1]/div[2]/div/div[2]/div[1]/div/div[1]/form/div[1]/div[1]/div[1]/div[1]/div/div[1]/input&quot;}&#10;  (Session info: chrome=86.0.4240.111)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'&#10;System info: host: 'Mohammeds-MacBook-Pro.local', ip: 'fe80:0:0:0:cb8:e792:254:1e73%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/q7/6zb53fb558q...}, goog:chromeOptions: {debuggerAddress: localhost:54400}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 319da5a5b9a5cd0c116e8a9471cef336&#10;*** Element info: {Using=xpath, value=/html/body/div[1]/div[2]/div[1]/div[2]/div/div[2]/div[1]/div/div[1]/form/div[1]/div[1]/div[1]/div[1]/div/div[1]/input}&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#10;&#9;at Pages.fbSignUpPage.getFirstName(fbSignUpPage.java:29)&#10;&#9;at stepDefinitions.facebookCucumberValidation.we_verify_our_first_name_text_box_if_it_is_valid_then_enter_Mohammed_in_the_text_box(facebookCucumberValidation.java:50)&#10;&#9;at ✽.Then we verify our first name text box if it is valid then enter Mohammed in the text box(feature3.feature:6)&#10;">
+            <![CDATA[Given a facebook signup page to test........................................passed
+When we are on the signup page..............................................passed
+Then we verify our first name text box if it is valid then enter Mohammed in the text box.failed
+And then we verify last name test box and enter Arafat in the text box......skipped
+And we verify logo for the last step and close the page.....................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[2]/div[1]/div[2]/div/div[2]/div[1]/div/div[1]/form/div[1]/div[1]/div[1]/div[1]/div/div[1]/input"}
+  (Session info: chrome=86.0.4240.111)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'Mohammeds-MacBook-Pro.local', ip: 'fe80:0:0:0:cb8:e792:254:1e73%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/q7/6zb53fb558q...}, goog:chromeOptions: {debuggerAddress: localhost:54400}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 319da5a5b9a5cd0c116e8a9471cef336
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[2]/div[1]/div[2]/div/div[2]/div[1]/div/div[1]/form/div[1]/div[1]/div[1]/div[1]/div/div[1]/input}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Pages.fbSignUpPage.getFirstName(fbSignUpPage.java:29)
+	at stepDefinitions.facebookCucumberValidation.we_verify_our_first_name_text_box_if_it_is_valid_then_enter_Mohammed_in_the_text_box(facebookCucumberValidation.java:50)
+	at ✽.Then we verify our first name text box if it is valid then enter Mohammed in the text box(feature3.feature:6)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

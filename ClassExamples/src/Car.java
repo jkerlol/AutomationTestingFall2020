@@ -1,33 +1,31 @@
-public class Car {
 
-    private String userID;
-    private int birthday;
+public class car {
+	
+	// global variable
+	int wheelCount;
+	
+	public void honk() {
+		
+		// local variable
+		int honkCount;
+		
+		System.out.print("The car has " + wheelCount + " wheels");
+		
+		System.out.print("The car honks" + honkCount + " times");
+	}
+	
+	public void honk2() {
+		
+		System.out.print("The car honks" + wheelCount + " wheels");
+		
+		System.out.print("The car honks" + honkCount + " times");
+	}
 
-    public void honk() {
-        System.out.println("The car has now honked!");
-    }
 
-    public void brake() {
-        System.out.println("The car has now stopped!");
-    }
-
-    public void gas() {
-        System.out.println("The car has now started to move. Remember to follow the speed limit!");
-    }
-
-    public void change_gear() {
-        System.out.println("We have now changed gears, where will you go next?");
-    }
-
-    public void sideview() {
-        System.out.println("Theres a giant truck coming beside you trying to cut you off!");
-    }
-
-    public void accelerate() {
-        System.out.println("You're starting to accelerate! You're going miles per hour so make sure you're seatbelts fastened!");
-    }
-
-    public void getBrand() {
-        System.out.println("Wow I love you're brand new");
-    }
+	public void honk3() {
+		
+		System.out.print("The car honks" + wheelCount + " wheels");
+		
+		System.out.print("The car honks" + honkCount + " times");
+	}
 }

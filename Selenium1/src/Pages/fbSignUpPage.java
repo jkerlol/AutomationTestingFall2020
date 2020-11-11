@@ -6,7 +6,8 @@ import org.openqa.selenium.WebElement;
 
 public class fbSignUpPage {
 	
-	WebDriver driver;
+	private WebDriver driver;
+	public WebElement fName = driver.findElement(By.xpath("//*[@id=\"u_0_n\"]"));
 	
 	// this is our constructor
 	
@@ -26,7 +27,7 @@ public class fbSignUpPage {
 	
 	public WebElement getFirstName() {
 		
-		WebElement fName = driver.findElement(By.xpath("/html/body/div[1]/div[3]/div[1]/div/div/div[2]/div[1]/div/div[1]/form/div[1]/div[1]/div[1]/div[1]/div/div[1]/input"));
+		WebElement fName = driver.findElement(By.xpath("//*[@id=\"u_0_n\"]"));
 		return fName;
 		
 	}
@@ -35,7 +36,7 @@ public class fbSignUpPage {
 	
 	public WebElement getLastName() {
 		
-		WebElement lName = driver.findElement(By.xpath("/html/body/div[1]/div[3]/div[1]/div/div/div[2]/div[1]/div/div[1]/form/div[1]/div[1]/div[1]/div[2]/div/div[1]/input"));
+		WebElement lName = driver.findElement(By.xpath("//*[@id=\"u_0_p\"]"));
 		return lName;
 	}
 	

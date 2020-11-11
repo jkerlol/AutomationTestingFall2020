@@ -86,7 +86,9 @@ public class YahooSignUp {
 	}
 	
 	
-
+	public WebElement getLogo() {
+		return driver.findElement(By.xpath("/html/body/div[2]/div[1]/span[1]/a/img[1]"));
+	}
 	
 	
 	
